@@ -16,6 +16,4 @@ export default () => {
   useCleanup(() => {
     physics.removeGeometry(floorPhysicsId);
   });
-
-  return rootScene;
 }
