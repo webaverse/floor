@@ -8,7 +8,7 @@ export default () => {
   const streetHeight = 1000;
   const floorPhysicsId = physics.addBoxGeometry(
     new THREE.Vector3(0, -streetHeight, 0),
-    streetMesh.quaternion,
+    new THREE.Quaternion(),
     new THREE.Vector3(streetSize * 0.5, streetHeight, streetSize * 0.5),
     false
   );
